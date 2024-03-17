@@ -34,4 +34,12 @@ public class Person
             return (age - 1);
         }
     }
+
+    public virtual string getOccupation()
+    {
+        return "not employed";
+    }
+
+
+
 }

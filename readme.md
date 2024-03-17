@@ -2,7 +2,7 @@ Ano: 2024
 Semestre: 1
 Course Name: M5D
 
-# Inheritance:
+# Inheritance and Polymorphism:
 1. Que es.
 2. overrides
 3. this

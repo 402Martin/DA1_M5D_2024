@@ -10,5 +10,9 @@ public class Student: Person
         Random random = new Random();
         StudentNumber = random.Next(100000, 999999).ToString();
     }
-    
+
+    public override string getOccupation()
+    {
+        return "student";
+    }
 }

@@ -59,4 +59,20 @@ public class PersonTest
         // Arrange 
         Assert.AreEqual(expectedAge, age);
     }
+
+    [TestMethod]
+    public void getOcuppation()
+    {
+        // Arrange
+        string name = "name";
+        string lastName = "lastName";
+        DateTime dob = new DateTime(2000, 11, 28);
+        Person person = new Person(name, lastName,dob);
+        string expectedOccupation = "not employed";
+        // Act
+        string occupation = person.getOccupation();
+        // Arrange 
+        Assert.AreEqual(expectedOccupation,occupation);
+    }
+    
 }

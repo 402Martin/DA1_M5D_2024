@@ -31,4 +31,16 @@ public class StudentTest
     }
     
     
+    [TestMethod]
+    public void GetOccupation()
+    {
+        string name = "martin";
+        string lastName = "rado";
+        Student student = new Student(name, lastName);
+        string expectedOccupation ="student";
+        string occupation = student.getOccupation();
+        Assert.AreEqual(expectedOccupation, occupation);
+    }
+    
+    
 }
