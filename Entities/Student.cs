@@ -3,6 +3,7 @@ namespace Entities;
 public class Student: Person
 {
     public string StudentNumber { get; }
+    
 
     public Student(string name, string lastName): base(name,lastName)
     {
