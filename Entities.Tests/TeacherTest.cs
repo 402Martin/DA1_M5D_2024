@@ -8,7 +8,12 @@ public class TeacherTest
     {
         string name = "martin";
         string lastName = "rado";
-        Teacher teacher = new Teacher();
+        string subject = "subject";
+        Teacher teacher = new Teacher(subject)
+        {
+            Name = name,
+            LastName = lastName
+        };
 
         Assert.IsNotNull(teacher.TeacherNumber);
     }
