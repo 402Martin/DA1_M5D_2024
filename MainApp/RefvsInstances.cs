@@ -19,8 +19,10 @@ internal class Program
         student1.Name = "Gonzalo";
         student1.DateOfBirth = new DateTime(2024, 11, 28);
         student1.LastName = "Rodriguez";
-
-        teacher.Students.Find(x => x.Name == "gonza");
-        //teacher.Students.Find(x => x.Name == "Gonzalo");
+        
+        Student std = teacher.Students.Find(x => x.Name == "gonza");
+        Console.WriteLine("student", std);
+        Student stdFind = teacher.Students.Find(x => x.Name == "Gonzalo");
+        Console.WriteLine("student", stdFind);
     }
 }
