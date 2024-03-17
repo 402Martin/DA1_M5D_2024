@@ -10,7 +10,7 @@ Person person = new Person(name,lastName);
 Person personWithAge = new Person(name,lastName, dateOfBirth);
 
 // with newer declarations:
-Person personDeclaration = new Person
+Person personInitializer = new Person
 {
     Name = name,
     LastName = lastName,
