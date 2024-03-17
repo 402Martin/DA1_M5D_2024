@@ -19,6 +19,10 @@ public class Person
         LastName = lastName;
     }
 
+    public Person()
+    {
+    }
+
     public int? Age {
         get
         {
